@@ -34,4 +34,6 @@ WarehouseInventoryTracker
 
 ## 👩‍💻 Author
 Roshani Yadav  
+<img width="1920" height="1008" alt="Screenshot 2025-10-30 182555" src="https://github.com/user-attachments/assets/0da852c8-71d0-40b1-a382-9955ef36f807" />
+
 
