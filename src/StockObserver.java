@@ -2,7 +2,7 @@
 
 public interface StockObserver {
 
-    void onLowStock(Product product);
+    void onLowStock(String warehouseName, Product product);
 
 }
 // Ye ek interface hai jo alert ke liye method define karta hai.

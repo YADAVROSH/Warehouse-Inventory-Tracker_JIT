@@ -34,14 +34,14 @@ public class Product {
 
     // stock badhane k liye jb shipment aaye
     public void increaseStock(int amount) {
-        quantity += amount;
+        if (amount > 0)
+            quantity += amount;
     }
 
     // stock kam karne k liye jb order fulfill ho
     public void decreaseStock(int amount) {
         if (amount > quantity)
-            throw new IllegalArgumentException("Insufficient stock for" + name);
+            throw new IllegalArgumentException("Not enough stock available!");
         quantity -= amount;
     }
-
 }
