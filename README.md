@@ -15,13 +15,14 @@ It tracks product stock levels, updates them in real-time, and triggers alerts w
 ## 🧱 Project Structure
 WarehouseInventoryTracker
 │
-├── src
-│ ├── Product.java
-│ ├── StockObserver.java
-│ ├── AlertService.java
-│ ├── Warehouse.java
-│ └── WarehouseTracker.java
-│
+├── src/
+│   ├── Product.java
+│   ├── Warehouse.java
+│   ├── StockObserver.java
+│   ├── AlertService.java
+│   ├── WarehouseManager.java
+│   └── Main.java
+
 
 ## 🛠️ Technologies
 - Java
@@ -34,6 +35,6 @@ WarehouseInventoryTracker
 
 ## 👩‍💻 Author
 Roshani Yadav  
-<img width="1920" height="1008" alt="Screenshot 2025-10-30 182555" src="https://github.com/user-attachments/assets/0da852c8-71d0-40b1-a382-9955ef36f807" />
 
+![alt text](image.png)
 
